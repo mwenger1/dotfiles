@@ -1,2 +1,3 @@
 Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/nerdtree'
+Plug 'jgdavey/tslime.vim'
