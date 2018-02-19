@@ -1,4 +1,5 @@
 nnoremap <leader>f :NERDTreeFind<CR>
+set nowrap
 
 " Color
 
