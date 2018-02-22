@@ -1,4 +1,5 @@
 nnoremap <leader>f :NERDTreeFind<CR>
+nnoremap K :Ag \\b<C-R><C-W>\\b<CR>
 set nowrap
 let test#strategy = "tslime"
 
