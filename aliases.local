@@ -30,8 +30,10 @@ alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
 # GIT
 
 alias ga="git add -p"
+alias ga.="git add ."
 alias git_tags="git tag -l -n1"
 alias gc="git commit"
+alias gcm="git commit -m"
 alias gs="git status"
 alias gl="git log --oneline --all --graph --decorate -30"
 alias gl+="git log --oneline --all --graph --decorate"
