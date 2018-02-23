@@ -29,7 +29,7 @@ alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
 
 # GIT
 
-alias ga="git add -p"
+alias ga="git add -N .; git add -p"
 alias ga.="git add ."
 alias git_tags="git tag -l -n1"
 alias gc="git commit"
