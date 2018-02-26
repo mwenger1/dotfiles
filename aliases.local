@@ -49,7 +49,7 @@ alias delete_all_branches="git branch | grep -v 'master' | xargs git branch -D"
 
 alias c="clear"
 alias brake="bundle exec rake"
-alias heroku_server="heroku local -e .env.local"
+alias heroku_server="heroku local -e .env"
 alias rake_db_migrate="rake db:migrate db:rollback db:migrate"
 alias server="python -m SimpleHTTPServer 8000"
 
