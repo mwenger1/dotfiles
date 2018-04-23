@@ -14,4 +14,7 @@ fi
 # mkdir .git/safe in the root of repositories you trust
 PATH=".git/safe/../../bin:$PATH"
 
+ANDROID_SDK=$HOME/Library/Android/sdk
+PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
+
 export -U PATH
