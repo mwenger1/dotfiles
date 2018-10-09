@@ -7,3 +7,4 @@ let test#strategy = "tslime"
 
 set background=dark
 colorscheme solarized
+let g:ale_linters_explicit = 1
