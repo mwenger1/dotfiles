@@ -46,16 +46,16 @@ augroup vimrcEx
   autocmd BufRead,BufNewFile .{jscs,jshint,eslint}rc set filetype=json
 
   " ALE linting events
-  if g:has_async
-    set updatetime=1000
-    let g:ale_lint_on_text_changed = 0
-    autocmd CursorHold * call ale#Lint()
-    autocmd CursorHoldI * call ale#Lint()
-    autocmd InsertEnter * call ale#Lint()
-    autocmd InsertLeave * call ale#Lint()
-  else
-    echoerr "The thoughtbot dotfiles require NeoVim or Vim 8"
-  endif
+  "if g:has_async
+    "set updatetime=1000
+    "let g:ale_lint_on_text_changed = 0
+    "autocmd CursorHold * call ale#Lint()
+    "autocmd CursorHoldI * call ale#Lint()
+    "autocmd InsertEnter * call ale#Lint()
+    "autocmd InsertLeave * call ale#Lint()
+  "else
+    "echoerr "The thoughtbot dotfiles require NeoVim or Vim 8"
+  "endif
 augroup END
 
 " When the type of shell script is /bin/sh, assume a POSIX-compatible
