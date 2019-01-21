@@ -4,6 +4,7 @@ alias .....='cd ../../../../'
 alias ....='cd ../../../'
 alias ...="cd ../../"
 alias ..="cd ../"
+alias data_science="cd ~/dev/data_science/DAT-course-materials"
 alias clinical="cd ~/dev/miscellaneous/clinical-trial-connect/application"
 alias clinical_customers="cd ~/dev/miscellaneous/clinical-trial-connect/customer-cms-configurations"
 alias clinical_marketing="cd ~/dev/miscellaneous/clinical-trial-connect/marketing-site"
