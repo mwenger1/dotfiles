@@ -15,3 +15,5 @@ unbind Up
 bind Up resize-pane -U 4
 unbind Down
 bind Down resize-pane -D 4
+
+set -s escape-time 0
