@@ -31,6 +31,7 @@ alias ship_to_master="bin/ship_to_master"
 alias tb_hub="cd ~/dev/thoughtbot/internal/hub"
 alias teamwork="cd ~/dev/thoughtbot/clients/teamwork-online"
 alias thoughtbot="cd ~/dev/thoughtbot"
+alias vanda="cd ~/dev/thoughtbot/vanda/ruthinium-web"
 alias upcase="cd ~/dev/thoughtbot/internal/upcase"
 alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
 
