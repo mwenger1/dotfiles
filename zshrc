@@ -41,9 +41,6 @@ _load_settings() {
 }
 _load_settings "$HOME/.zsh/configs"
 
-# Local config
-[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
-
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
@@ -54,3 +51,7 @@ if [ -f '/Users/michaelwenger/Desktop/google-cloud-sdk/path.zsh.inc' ]; then . '
 if [ -f '/Users/michaelwenger/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/michaelwenger/Desktop/google-cloud-sdk/completion.zsh.inc'; fi
 export PATH=~/anaconda3/bin:$PATH
 export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
+
+# Local config
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
