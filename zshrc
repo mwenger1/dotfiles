@@ -49,7 +49,7 @@ if [ -f '/Users/michaelwenger/Desktop/google-cloud-sdk/path.zsh.inc' ]; then . '
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/michaelwenger/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/michaelwenger/Desktop/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH=~/anaconda3/bin:$PATH
+export PATH="/usr/local/anaconda3/bin:$PATH"
 export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 
 # Local config
