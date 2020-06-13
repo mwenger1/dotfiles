@@ -4,3 +4,4 @@ Plug 'jgdavey/tslime.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-unimpaired'
 Plug 'jparise/vim-graphql'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
