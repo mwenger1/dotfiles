@@ -13,3 +13,4 @@ tmp/**/*
 *.pyc
 .projections.json
 bin/demo
+erd.pdf
