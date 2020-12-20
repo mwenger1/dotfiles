@@ -62,6 +62,10 @@ augroup END
 " shell for syntax highlighting purposes.
 let g:is_posix = 1
 
+" Prettier autoruns on save
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
+
 " Softtabs, 2 spaces
 set tabstop=2
 set shiftwidth=2
