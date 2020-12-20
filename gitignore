@@ -14,3 +14,5 @@ tmp/**/*
 .projections.json
 bin/demo
 erd.pdf
+.rspec
+.vscode/
