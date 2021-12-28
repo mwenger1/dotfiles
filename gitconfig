@@ -13,12 +13,12 @@
   pf = push --force-with-lease
   st = status
 [core]
-	excludesfile = /Users/localadmin/.gitignore
+	excludesfile = /Users/mwenger/.gitignore_global
   autocrlf = input
 [merge]
   ff = only
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 	verbose = true
 [fetch]
   prune = true

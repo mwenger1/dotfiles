@@ -16,3 +16,4 @@ bin/demo
 erd.pdf
 .rspec
 .vscode/
+.tool-versions
