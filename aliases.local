@@ -84,5 +84,5 @@ function gopen() {
 
 # Mobile Development
 
-alias ios_simulator="open -n /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
+alias ios_simulator="open -a Simulator.app"
 alias android_simulator="emulator @Pixel_2_XL_API_27"
