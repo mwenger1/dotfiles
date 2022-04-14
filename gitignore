@@ -15,5 +15,5 @@ tmp/**/*
 bin/demo
 erd.pdf
 .rspec
-.vscode/
+.vscode/*
 .tool-versions
