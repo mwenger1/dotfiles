@@ -37,7 +37,7 @@ alias vanda="cd ~/dev/thoughtbot/vanda/ruthinium-web"
 alias upcase="cd ~/dev/thoughtbot/internal/upcase"
 alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
 alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
-alias studysense="cd ~/dev/studysense/app/studysense"
+alias versatrial="cd ~/dev/versatrial/app/versatrial"
 
 # GIT
 
