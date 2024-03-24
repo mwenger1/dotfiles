@@ -37,7 +37,8 @@ alias vanda="cd ~/dev/thoughtbot/vanda/ruthinium-web"
 alias upcase="cd ~/dev/thoughtbot/internal/upcase"
 alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
 alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
-alias versatrial="cd ~/dev/versatrial/app/versatrial"
+alias versatrial="cd ~/dev/versatrial/web"
+alias extension="cd ~/dev/versatrial/extension"
 
 # GIT
 
@@ -52,7 +53,7 @@ alias gl+="git log --oneline --all --graph --decorate"
 alias glog="git log --no-merges main.."
 alias gh="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 alias branchage='for k in `git branch|perl -pe s/^..//`;do echo -e `git show --pretty=format:"%Cgreen%ci %Cblue%cr%Creset" $k|head -n 1`\\t$k;done|sort -r'
-alias grecent='git for-each-ref --sort=-committerdate refs/heads/ --format="%(refname:short)"'
+alias grecent='git for-each-ref --sort=-committerdate refs/heads/ --format="%(refname:short)" --count 15'
 alias gamend="git commit --amend -CHEAD"
 alias rebase_main="git checkout main; git pull origin main; git checkout -; git rebase -i origin/main"
 alias delete_all_branches="git branch | grep -v 'main' | xargs git branch -D"

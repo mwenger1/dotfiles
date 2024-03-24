@@ -4,6 +4,7 @@
 .byebug_history
 .env
 .env.dev
+.env.local
 db/*.sqlite3
 log/*.log
 rerun.txt
@@ -14,6 +15,7 @@ tmp/**/*
 *.pyc
 .projections.json
 bin/demo
+bin/sandbox
 erd.pdf
 .rspec
 .vscode/*
