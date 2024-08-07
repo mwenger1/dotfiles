@@ -3,6 +3,12 @@ for function in ~/.zsh/functions/*; do
   source $function
 done
 
+# Start the SSH agent
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+  eval "$(ssh-agent -s)"
+  ssh-add ~/.ssh/id_ed25519
+fi
+
 # extra files in ~/.zsh/configs/pre , ~/.zsh/configs , and ~/.zsh/configs/post
 # these are loaded first, second, and third, respectively.
 _load_settings() {
