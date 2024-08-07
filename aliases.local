@@ -38,6 +38,8 @@ alias upcase="cd ~/dev/thoughtbot/internal/upcase"
 alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
 alias upcase_mobile="cd ~/dev/thoughtbot/react-native/upcase-mobile"
 alias versatrial="cd ~/dev/versatrial/web"
+alias florence="cd ~/dev/florence"
+alias florenceapi="cd ~/dev/florence/sitelink2-api"
 alias extension="cd ~/dev/versatrial/extension"
 
 # GIT
