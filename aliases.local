@@ -41,11 +41,14 @@ alias versatrial="cd ~/dev/versatrial/web"
 alias florence="cd ~/dev/florence"
 alias florenceapi="cd ~/dev/florence/sitelink2-api"
 alias extension="cd ~/dev/versatrial/extension"
+alias extension="cd ~/dev/versatrial/extension"
+alias bot="cd ~/dev/florence/document-agent"
 
 # GIT
 
 alias ga="git add -N .; git add -p"
 alias ga.="git add ."
+alias gac="git add . && git commit -m 'Quick Commit'"
 alias git_tags="git tag -l -n1"
 alias gc="git commit"
 alias gcm="git commit -m"
