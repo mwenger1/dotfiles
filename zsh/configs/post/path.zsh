@@ -3,7 +3,6 @@ PATH="$HOME/.bin:/usr/local/sbin:$PATH"
 
 # load ASDF, falling back to rbenv if not available
 if [ -d "$HOME/.asdf" ]; then
-  . $HOME/.asdf/asdf.sh
 fi
 
 # load rbenv if available
