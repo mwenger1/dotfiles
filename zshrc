@@ -83,3 +83,15 @@ unset __conda_setup
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+
+# . $(brew --prefix asdf)/bin/asdf
+# export ASDF_DIR=$(brew --prefix asdf)
+# export PATH="$ASDF_DIR/bin:$PATH"
+# . $ASDF_DIR/libexec/asdf.sh
+# export ASDF_DIR=$(brew --prefix asdf)
+# export PATH="$ASDF_DIR/bin:$PATH"
+# export PATH="$ASDF_DIR/shims:$PATH"
+# . $ASDF_DIR/libexec/asdf.sh
+
+# . /opt/homebrew/opt/asdf/libexec/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
