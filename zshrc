@@ -53,12 +53,6 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/michaelwenger/Desktop/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/michaelwenger/Desktop/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/michaelwenger/Desktop/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/michaelwenger/Desktop/google-cloud-sdk/completion.zsh.inc'; fi
 # export PATH="/usr/local/anaconda3/bin:$PATH"  # commented out by conda initialize
 
 # Local config
@@ -95,3 +89,12 @@ eval "$(pyenv init -)"
 
 # . /opt/homebrew/opt/asdf/libexec/asdf.sh
 . $(brew --prefix asdf)/libexec/asdf.sh
+
+# Created by `pipx` on 2025-02-20 17:05:37
+export PATH="$PATH:/Users/mike/.local/bin"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/mike/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mike/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/mike/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mike/Downloads/google-cloud-sdk/completion.zsh.inc'; fi

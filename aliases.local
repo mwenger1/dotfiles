@@ -9,6 +9,7 @@ alias dev="cd ~/dev"
 alias dotfiles="cd ~/dotfiles"
 alias ship_to_master="bin/ship_to_master"
 alias fullstack="cd ~/dev/fullstack/study_app"
+alias proofpilot="cd ~/dev/proofpilot/ai"
 
 # GIT
 
