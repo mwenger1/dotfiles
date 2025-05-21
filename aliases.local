@@ -12,7 +12,8 @@ alias fullstack="cd ~/dev/fullstack/study_app"
 alias proofpilot="cd ~/dev/proofpilot/ai"
 alias sandbox="cd ~/dev/learning/sandbox"
 alias esource="cd ~/dev/fullstack/source_builder_agent"
-alias genai="cd ~/dev/learning/genai-accelerator/genai-accelerator-labs"
+alias genai="cd ~/dev/learning/genai-accelerator-labs"
+alias launchpad="cd ~/dev/learning/genai-launchpad"
 
 # GIT
 
