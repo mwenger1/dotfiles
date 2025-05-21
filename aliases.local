@@ -10,6 +10,9 @@ alias dotfiles="cd ~/dotfiles"
 alias ship_to_master="bin/ship_to_master"
 alias fullstack="cd ~/dev/fullstack/study_app"
 alias proofpilot="cd ~/dev/proofpilot/ai"
+alias sandbox="cd ~/dev/learning/sandbox"
+alias esource="cd ~/dev/fullstack/source_builder_agent"
+alias genai="cd ~/dev/learning/genai-accelerator/genai-accelerator-labs"
 
 # GIT
 

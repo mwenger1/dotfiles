@@ -20,3 +20,7 @@ erd.pdf
 .rspec
 .vscode/*
 .tool-versions
+venv/*
+venv
+venv/
+.tool-versions

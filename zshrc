@@ -86,6 +86,7 @@ eval "$(pyenv init -)"
 # export PATH="$ASDF_DIR/bin:$PATH"
 # export PATH="$ASDF_DIR/shims:$PATH"
 # . $ASDF_DIR/libexec/asdf.sh
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # . /opt/homebrew/opt/asdf/libexec/asdf.sh
 . $(brew --prefix asdf)/libexec/asdf.sh
@@ -98,3 +99,12 @@ if [ -f '/Users/mike/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/mike/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mike/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+. "$HOME/.local/bin/env"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$PATH:$HOME/dev/fullstack/source_builder_agent/bin"
+
