@@ -17,6 +17,10 @@ export NVM_DIR="$HOME/.nvm"
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 export PATH="/Users/mike/.asdf/installs/nodejs/22.13.1/bin:$PATH"
+export GRAPHVIZ_ROOT="$(brew --prefix graphviz)"
+export CFLAGS="-I$(brew --prefix graphviz)/include:$CFLAGS"
+export LDFLAGS="-L$(brew --prefix graphviz)/lib:$LDFLAGS"
+export PKG_CONFIG_PATH="$(brew --prefix graphviz)/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 claude-code() {
       command claude-code "$@"
