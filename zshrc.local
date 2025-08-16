@@ -15,3 +15,14 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+export PATH="/Users/mike/.asdf/installs/nodejs/22.13.1/bin:$PATH"
+
+claude-code() {
+      command claude-code "$@"
+      afplay /System/Library/Sounds/Sosumi.aiff  # Longer sound
+        # Other options:
+        #     # afplay /System/Library/Sounds/Funk.aiff
+        #         # afplay /System/Library/Sounds/Blow.aiff
+        #             # afplay /System/Library/Sounds/Hero.aiff
+}
