@@ -16,6 +16,9 @@ alias esource="cd ~/dev/crio/source-builder-agent"
 alias genai="cd ~/dev/learning/genai-accelerator-labs"
 alias launchpad="cd ~/dev/learning/genai-launchpad"
 
+alias python="uv run python"
+alias pip="uv pip"
+
 # GIT
 
 alias ga="git add -N .; git add -p"
