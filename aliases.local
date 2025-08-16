@@ -12,7 +12,7 @@ alias shipit="bin/shipit"
 alias fullstack="cd ~/dev/fullstack/study_app"
 alias proofpilot="cd ~/dev/proofpilot/ai"
 alias sandbox="cd ~/dev/learning/sandbox"
-alias esource="cd ~/dev/fullstack/source-builder-agent"
+alias esource="cd ~/dev/crio/source-builder-agent"
 alias genai="cd ~/dev/learning/genai-accelerator-labs"
 alias launchpad="cd ~/dev/learning/genai-launchpad"
 
