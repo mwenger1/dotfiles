@@ -13,6 +13,7 @@ alias fullstack="cd ~/dev/fullstack/study_app"
 alias proofpilot="cd ~/dev/proofpilot/ai"
 alias sandbox="cd ~/dev/learning/sandbox"
 alias esource="cd ~/dev/crio/source-builder-agent"
+alias siteapp="cd ~/dev/crio/crio"
 alias genai="cd ~/dev/learning/genai-accelerator-labs"
 alias launchpad="cd ~/dev/learning/genai-launchpad"
 
