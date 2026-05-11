@@ -108,3 +108,16 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$PATH:$HOME/dev/fullstack/source_builder_agent/bin"
 
+
+# jenv configuration
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+# Quick auth refresh alias
+alias auth="gcloud auth login --update-adc; npx google-artifactregistry-auth;"
+
+# FontAwesome NPM Token
+export FONTAWESOME_NPM_AUTH_TOKEN="D9C4B9C1-3A2C-4CAD-9280-A602AB7A3597"
+
+# MySQL alias for Docker container
+alias mysql='docker exec -i mysql-ca-deident mysql'
