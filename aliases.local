@@ -17,6 +17,7 @@ alias validator="cd ~/dev/crio/edc-validation-tooling"
 alias crio="cd ~/dev/crio"
 alias siteapp="cd ~/dev/crio/crio"
 alias brain="cd ~/crio-brain"
+alias personal="cd ~/personal-brain"
 alias genai="cd ~/dev/learning/genai-accelerator-labs"
 alias launchpad="cd ~/dev/learning/genai-launchpad"
 
